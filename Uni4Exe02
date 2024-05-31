@@ -12,3 +12,5 @@ public class ExerciciosUni4Exe02 {
           else{
            System.out.println("O número é ímpar");
           }
+            }
+              }
