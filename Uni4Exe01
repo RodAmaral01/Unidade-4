@@ -1,0 +1,22 @@
+import java.util.Scanner;
+
+public class ExerciciosUni4Exe01 {
+
+    public static void main(String[] args) {
+        Scanner scan = new Scanner(System.in);
+
+int horasTrabalhadas = scan.nextInt();
+         double valorHora = scan.nextDouble();
+         double salarioTotal = horasTrabalhadas*valorHora;
+
+         if(horasTrabalhadas > 160){
+
+            double salario = (horasTrabalhadas - 160) * (valorHora/2);
+            salarioTotal += salario;
+            System.out.printf("Salário = R$%.2f",salarioTotal);
+            
+         }
+         if(horasTrabalhadas <= 160){
+
+           System.out.printf("Salário = R$%.2f",salarioTotal);
+       }
