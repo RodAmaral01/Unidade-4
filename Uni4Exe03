@@ -1,0 +1,17 @@
+import java.util.Scanner;
+
+public class ExerciciosUni4Exe03 {
+
+    public static void main(String[] args) {
+        Scanner scan = new Scanner(System.in);
+        System.out.println("Insira 1 número: ");
+        double num1 = scan.nextDouble();
+        System.out.println("Insira outro número: ");
+        double num2 = scan.nextDouble();
+        if(num1 == num2){
+        System.out.println("Os números são iguais");
+        }else if(num1 > num2){
+        System.out.printf("O maisVelho número é maior que o doMeio (%.1f > %.1f)", num1,num2);
+       }else{
+        System.out.printf("O doMeio número é maior que o maisVelho (%.1f > %.1f)", num2,num1);
+         }
