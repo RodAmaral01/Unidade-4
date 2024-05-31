@@ -1,4 +1,4 @@
-port java.util.Scanner;
+import java.util.Scanner;
 
 public class Uni4Exe24 {
     public static void main(String[] args) {
