@@ -15,3 +15,5 @@ public class ExerciciosUni4Exe03 {
        }else{
         System.out.printf("O doMeio número é maior que o maisVelho (%.1f > %.1f)", num2,num1);
          }
+        }
+       }
